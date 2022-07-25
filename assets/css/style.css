@@ -1,0 +1,107 @@
+article {
+  padding-top: 30px;
+}
+body{
+  color: #000;
+  font-weight: 400;
+}
+
+.block-number {
+  text-align: center;
+  font-size: 0.8125em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #191919;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+  .block-number:hover {
+    opacity: 1; }
+  .block-number::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #191919; }
+  .block-number a:hover,
+  .block-number a:focus {
+    color: #191919; }
+
+.demo-section .main-content .section,
+.main-content .topbar,
+.main-content .navbar,
+.main-content .header,
+.main-content .footer {
+  margin: 30px 20px 100px;
+  border: 1px solid #f5f6f7;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); }
+
+.main-content .navbar {
+  position: static;
+  margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
+
+.nav-sidebar .nav-link.active>.fa-angle-down {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(0deg);
+}
+.nav-sidebar .fa-angle-down {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(-90deg);
+}
+
+.formito-app.formito-trigger-fab {
+    display: none;
+}
+
+#myscroll {
+  /* position: fixed; */
+  width: 280px;
+	background: #f2f2f2;
+	padding: 0 14px;
+}
+
+.sidebar-sticky.stick:not(.is-mobile-wide) {
+    /* position: unset; */
+    top: 0;
+}
+.nav-sidebar-hero li a{
+  color: #000;
+}
+.nav-item {
+  width: 100%;
+}
+.nav .nav-item .nav-link:hover{
+  color: #50a1ff;
+}
+.nav a{
+  font-size: 16px;
+}
+#accordionExample h2 p{
+  padding: 10px 0;
+}
+#accordionExample h2 p a{
+  padding: 5px 0;
+}
+#accordionExample h2 p a:hover{
+  color: #50a1ff;
+}
+.item_icon i{
+  margin-left: 70px;
+}
+#login p, a{
+  color: #000;
+  font-size: 16px;
+}
+#logout h1{
+  margin-top: 20px;
+}
+
+span, strong {
+  font-size: 20px;
+}

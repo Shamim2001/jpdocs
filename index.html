@@ -1,0 +1,1397 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <title>Jp — Documentation</title>
+
+    <!-- Styles -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+    <!-- bootstrap css  -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="assets/images/favicon.ico" />
+
+</head>
+
+<body class="">
+
+    <!-- Header -->
+    <header class="header text-white bg-dark pt-9 pb-5"
+        style="background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);">
+        <div class="container">
+            <h3>Jp Documentation</h3>
+        </div>
+    </header>
+    <!-- /.header -->
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="row">
+                <!--
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          | Sidebar
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          -->
+                <div class="col-md-4 col-xl-3 order-last order-md-first" id="sitebar">
+                    <hr class="d-md-none" />
+                    <aside id="myscroll" class="sidebar  pr-md-5 br-1">
+                        <ul class="nav nav-sidebar nav-sidebar-hero" data-accordion="true">
+
+                            <li class="nav-item mt-4">
+                                <a class="active" href="#login"> How to login and log out</a>
+                            </li>
+                            <!-- contacts -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseOne">
+                                            <a class="item_icon" href="#">Contacts #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#contact">How to view contacts</a>
+                                            <a class="nav-link" href="#contactDelete">How to delete contacts</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <!-- event -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            <a class="item_icon" href="#">Events #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#event">How to add event</a>
+                                            <a class="nav-link" href="#eventEdit">How to edit event</a>
+                                            <a class="nav-link" href="#eventDelete">How to delete event</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <!-- slider -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            <a class="item_icon" href="#">Slider #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#sliderAdd">How to add Slider</a>
+                                            <a class="nav-link" href="#sliderEdit">How to edit Slider</a>
+                                            <a class="nav-link" href="#sliderDelete">How to delete Slider</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <!-- Certification -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            <a class="item_icon" href="#">Certification #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#certification">How to add certification</a>
+                                            <a class="nav-link" href="#certificationEdit">How to edit certification</a>
+                                            <a class="nav-link" href="#certificationDelete">How to delete
+                                                certification</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <!-- Posts -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                            <a class="item_icon" href="#">Posts #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseFive" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#postAdd">How to add posts</a>
+                                            <a class="nav-link" href="#postView">How to view posts</a>
+                                            <a class="nav-link" href="#postEdit">How to edit posts</a>
+                                            <a class="nav-link" href="#postDelete">How to delete posts</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <!-- Title -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseFives" aria-expanded="false"
+                                            aria-controls="collapseFives">
+                                            <a class="item_icon" href="#">Title #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseFives" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#sectionTitles">How to add title</a>
+                                            <a class="nav-link" href="#sectionTitles">How to edit title</a>
+                                            <a class="nav-link" href="#sectionTitles">How to delete title</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Breadcrumb -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseSix" aria-expanded="false"
+                                            aria-controls="collapseSix">
+                                            <a class="item_icon" href="#">Breadcrumb #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseSix" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#breadcrumbs">How to add Breadcrumb</a>
+                                            <a class="nav-link" href="#breadcrumbsEdit">How to edit Breadcrumb</a>
+                                            <a class="nav-link" href="#postDelete">How to delete Breadcrumb</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- ABout Me -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseSeven" aria-expanded="false"
+                                            aria-controls="collapseSeven">
+                                            <a class="item_icon" href="#">About Me #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseSeven" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#hero">How to edit About me </a>
+                                            <a class="nav-link" href="#aboutmeView">How to view About me </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <!-- Experience -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseEight" aria-expanded="false"
+                                            aria-controls="collapseEight">
+                                            <a class="item_icon" href="#">About Me / Experience #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseEight" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#experienceAdd">How to add experience </a>
+                                            <a class="nav-link" href="#experienceEdit">How to edit experience </a>
+                                            <a class="nav-link" href="#experienceDelete">How to delete experience </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Call To Action -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapsNine" aria-expanded="false"
+                                            aria-controls="collapsNine">
+                                            <a class="item_icon" href="#">About Me / Call To Action #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapsNine" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#calltoactionEdit">How to edit Call To Action </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Home Page / Hero -->
+                            <li class="nav-item ">
+                                <div class="accordion" id="accordionExample">
+                                    <h2 class="mb-0">
+                                        <p class="text-left collapsed " type="button" data-toggle="collapse"
+                                            data-target="#collapseTen" aria-expanded="false"
+                                            aria-controls="collapseTen">
+                                            <a class="item_icon" href="#">Home Page / Hero #</a>
+                                        </p>
+                                    </h2>
+
+                                    <div id="collapseTen" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="">
+                                            <a class="nav-link" href="#aboutme">How to edit Hero section</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+
+                <!--
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          | Content
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          -->
+                <div class="col-md-7 col-xl-8 ml-md-auto py-8">
+                    <!-- login -->
+                    <article id="login">
+                        <h1>How to login and log out</h1>
+                        <h2 class="font-weight-bold">How to Login</h2>
+                        <p>Visit <a href="https://jp.pixcafe.xyz/login"
+                                style="text-decoration: underline; ">https://jp.pixcafe.xyz/register</a></p>
+                        <ul>
+                            <li>Input your login details</li>
+                            <li>Click on the login button</li>
+                            <li>You will see the homepage if login success. (if not it will show an error)</li>
+                            <li>To access the dashboard hover on the top bar and click on dashboard.</li>
+                            <li>You’ll see the dashboard now.</li>
+                        </ul>
+
+                        <h5>Video</h5>
+                        <div class="">
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- logOut -->
+                    <article id="logout">
+                        <h1 class="font-weight-bold">How to log out</h1>
+                        <li>If you’re on the dashboard (admin) you can log out by hovering the name on the top right
+                            side and you’ll see the logout option.</li>
+                        </ul>
+                    </article>
+
+                    <!-- Contact page -->
+                    <article id="contact" class="mt-5">
+                        <h1 class="font-weight-bold">How to details contact page</h1>
+                        <p class="font-weight-bold">To view and delete contacts follow these steps:</p>
+
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Contacts</span> Tab</li>
+                            <li>Find page view icon Click <span style="font-weight: 900;">View</span></li>
+                            <li>You will see the contact view</li>
+                            <li>Click On the<span style="font-weight: 900;">Back</span> button </li>
+                        </ul>
+
+                        <h5>video</h5>
+                        <div class="">
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+
+                        <!-- logOut -->
+                        <article id="contactDelete">
+                            <h1>How to Delete contacts</h1>
+                            <ul>
+                                <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                        style="text-decoration: underline; ">Dashboard</a></li>
+                                <li>Click <span style="font-weight: 900;">Contacts</span> Tab</li>
+                                <li>Find page Delete icon Click <span style="font-weight: 900;">Delete</span> icon of
+                                    the contact that you want to delete</li>
+                            </ul>
+                        </article>
+
+                    </article>
+
+                    <!-- Events page -->
+                    <article id="event" class="mt-5">
+                        <h1 class="font-weight-bold">How to add event page</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Events</span> Tab</li>
+                            <li>Find page Add New button Click <span style="font-weight: 900;">Add New</span> Button
+                            </li>
+
+                            <li>You’ll see a new event form where you should put the title, Content, Pusblish and
+                                Thumbnail </li>
+                            <li class="font-weight-bold">You have to fulfill those input field by below instruction</li>
+                            <li>
+                                <strong>Content</strong>: Type event content in content input field.
+                                <ul>
+                                    <li>
+                                        <strong>link-input</strong>: You can type link url, text, title of your link.
+                                        And can also choose, should this link open in this tab or in a new tab? <br>
+                                        <strong>Image-icon</strong>: You can add img in content by click link <span
+                                            style="font-weight: 900;">img icon</span> content top bar. <br>
+                                        <strong>Image-input</strong>: You can type img source (from another website),
+                                        alternative description (if img is not found this text will show), image height
+                                        and width, title of your link. And can also choose, to show or hide the photo
+                                        caption? <br>
+                                        <strong>Image-input by upload</strong>: You can upload img from image module
+                                        "Upload" tab.<br>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Publish Options</strong>: You get 3 type publish option. <br>
+                                <strong>Publish</strong>: If you select this, everyone will see this event on the
+                                frontend. <br>
+                                <strong>Private</strong>: If you select this, only you will see this event on the
+                                frontend. <br>
+                                <strong>Draft</strong>: If you select this, no one on the frontend will see this event.
+                                And it will be saved in your event list draft. <br>
+                            </li>
+                            <li>
+                                <strong>Thumbnail</strong>: You can upload event photos from here.
+                            </li>
+                            <li>
+                                <strong>Category</strong>: You can select your event category from here. <br>
+                                <strong>Category</strong>: create an category by <span style="font-weight: 900;">Add New
+                                    Category</span> click this button.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <h5>video</h5>
+                        <div class="">
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Event Edit -->
+                    <article id="eventEdit">
+                        <h1 class="font-weight-bold">How to edit event page</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Events</span> Tab</li>
+                            <li>Find page edit icon Click <span style="font-weight: 900;">edit</span> icon
+                            </li>
+
+                            <li>You’ll see a event forms where you should put the title, Content, Pusblish and
+                                Thumbnail </li>
+                            <li class="font-weight-bold">You have to fulfill those input field by below instruction</li>
+                            <li>
+                                <strong>Content</strong>: Type event content in content input field.
+                                <ul>
+                                    <li>
+                                        <strong>link-input</strong>: You can type link url, text, title of your link.
+                                        And can also choose, should this link open in this tab or in a new tab? <br>
+                                        <strong>Image-icon</strong>: You can add img in content by click link <span
+                                            style="font-weight: 900;">img icon</span> content top bar. <br>
+                                        <strong>Image-input</strong>: You can type img source (from another website),
+                                        alternative description (if img is not found this text will show), image height
+                                        and width, title of your link. And can also choose, to show or hide the photo
+                                        caption? <br>
+                                        <strong>Image-input by upload</strong>: You can upload img from image module
+                                        "Upload" tab.<br>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Publish Options</strong>: You get 3 type publish option. <br>
+                                <strong>Publish</strong>: If you select this, everyone will see this event on the
+                                frontend. <br>
+                                <strong>Private</strong>: If you select this, only you will see this event on the
+                                frontend. <br>
+                                <strong>Draft</strong>: If you select this, no one on the frontend will see this event.
+                                And it will be saved in your event list draft. <br>
+                            </li>
+                            <li>
+                                <strong>Thumbnail</strong>: You can upload event photos from here.
+                            </li>
+                            <li>
+                                <strong>Update</strong>: You can Updated event here.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h4>Video</h4>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+
+                        <!-- event delete -->
+                        <article id="eventDelete">
+                            <h1 class="font-weight-bold">How to Delete Events</h1>
+                            <ul>
+                                <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                        style="text-decoration: underline; ">Dashboard</a></li>
+                                <li>Click <span style="font-weight: 900;">Events</span> Tab</li>
+                                <li>Find page delete icon Click <span style="font-weight: 900;">delete</span> icon of
+                                    the event that you want to delete
+                                </li>
+                            </ul>
+                        </article>
+                    </article>
+
+                    <!-- Slider page -->
+                    <article id="slider" class="mt-5">
+                        <h1 class="font-weight-bold">How to Add Slider page</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Slider</span> Tab</li>
+                            <li>Find page Add New button Click <span style="font-weight: 900;">Add New</span> Button
+                            </li>
+
+                            <li>You’ll see a new Slider forms where you should put the key, title, thumbnail and publish
+                            </li>
+                            <li>
+                                <strong>Create</strong>: After filling all the input fields click the
+                                <span style="font-weight: 900;">Create</span> button to create your slider.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Slider Edit -->
+                    <article id="sliderEdit" class="mt-5">
+                        <h1 class="font-weight-bold">How to Edit Slider page</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Slider</span> Tab</li>
+                            <li>Find page edit icon Click <span style="font-weight: 900;">edit</span> icon
+                            </li>
+
+                            <li>You’ll see a new Slider forms where you should put the key, title, thumbnail and publish
+                            </li>
+                            <li>Old image remove click remove button and new image upload here</li>
+                            <li>
+                                <strong>Update</strong>: After change all the input fields click the
+                                <span style="font-weight: 900;">Update</span> button to Update your slider.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- slider delete -->
+                    <article id="sliderDelete">
+                        <h1 class="font-weight-bold">How to Delete Slider</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Slider</span> Tab</li>
+                            <li>Find page delete icon Click <span style="font-weight: 900;">delete</span> icon of the
+                                certification that you want to delete</li>
+                        </ul>
+                        <div class="">
+                            <h4>Video</h4>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- certification page -->
+                    <article id="certification" class="mt-5">
+                        <h1 class="font-weight-bold">How to Add certification</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Certification</span> Tab</li>
+                            <li>Find page Add New button Click <span style="font-weight: 900;">Add New</span> Button
+                            </li>
+
+                            <li>You’ll see a new Certification field where you should put the Title, Course Name, Enroll
+                                Date, thumbnail and publish</li>
+                            <li>
+                                <strong>Publish Options</strong>: You get 3 type publish option. <br>
+                                <ul>
+                                    <li><strong>Publish</strong>: If you select this, everyone will see this event on
+                                        the frontend. <br>
+                                        <strong>Private</strong>: If you select this, only you will see this event on
+                                        the frontend. <br>
+                                        <strong>Draft</strong>: If you select this, no one on the frontend will see this
+                                        event.And it will be saved in your event list draft. <br></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Create</strong>: After filling all the input fields click the
+                                <span style="font-weight: 900;">Create</span> button to create your Certification.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- certification Edit -->
+                    <article id="certificationEdit" class="mt-5">
+                        <h1 class="font-weight-bold">How to Edit certification</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Certification</span> Tab</li>
+                            <li>Find page edit icon Click <span style="font-weight: 900;">edit</span> icon
+                            </li>
+
+                            <li>You’ll see a Certification where you should put the title, course name, Enroll date and
+                                publish</li>
+                            <li><strong>Thumbnail</strong>: If you change image then new image upload here</li>
+                            <li>
+                                <strong>Update</strong>: After change all the input fields click the
+                                <span style="font-weight: 900;">Update</span> button to Update your Certification.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- certification delete -->
+                    <article id="certificationDelete">
+                        <h1 class="font-weight-bold">How to Delete certification</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Certification</span> Tab</li>
+                            <li>Find page delete icon Click <span style="font-weight: 900;">delete</span> icon of the
+                                certification that you want to delete</li>
+                        </ul>
+                        <div class="">
+                            <h4>Video</h4>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Posts add -->
+                    <article id="postAdd" class="mt-5">
+                        <h1 class="font-weight-bold">How to add posts</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Posts</span> Tab</li>
+                            <li>Find page Add New button Click <span style="font-weight: 900;">Add New</span> Button
+                            </li>
+
+                            <li>You’ll see a new create posts field where you should put the Title, Course Name, Enroll
+                                Date, publish, posts type, tag and thumbnail to add this fields</li>
+                            <li>
+                                <strong>Publish Options</strong>: Now you can publish the posts by clicking the create
+                                button.You get 3 type publish option. <br>
+                                <ul>
+                                    <li><strong>Publish</strong>: If you select this, everyone will see this posts on
+                                        the frontend. <br>
+                                        <strong>Private</strong>: If you select this, only you will see this posts on
+                                        the frontend. <br>
+                                        <strong>Draft</strong>: If you select this, no one on the frontend will see this
+                                        posts.And it will be saved in your posts list draft. <br></li>
+                                </ul>
+                            </li>
+                            <li><strong>posts Type</strong>: You can select your posts Type from here.</li>
+                            <li><strong>Tag</strong>: You can select your posts Tag from here. <br>
+                                <strong>add new tag</strong>: create an posts by Add New tag click this button.
+                            </li>
+                            <li><strong>Thumbnail</strong>: You can upload posts photos from here. </li>
+                            <li>
+                                <strong>Create</strong>: After filling all the input fields click the
+                                <span style="font-weight: 900;">Create</span> button to create your posts.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- posts view -->
+                    <article id="postView">
+                        <h1 class="font-weight-bold">How to view posts</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Posts</span> Tab</li>
+                            <li>Find page view icon Click <span style="font-weight: 900;">view</span> icon</li>
+                            <li>You’ll see this posts view in new tab. </li>
+                        </ul>
+                        <div class="">
+                            <h4>Video</h4>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Posts add -->
+                    <article id="postAdd" class="mt-5">
+                        <h1 class="font-weight-bold">How to edit posts</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Posts</span> Tab</li>
+                            <li>Find page edit incon Click <span style="font-weight: 900;">edit</span> Button
+                            </li>
+
+                            <li>You’ll see a posts field where you should put the Title, Course Name, Enroll
+                                Date, publish, posts type, tag and thumbnail to update this fields</li>
+                            <li>
+                                <strong>Publish Options</strong>: Now you can publish the posts by clicking the update
+                                button.You get 3 type publish option. <br>
+                                <ul>
+                                    <li><strong>Publish</strong>: If you select this, everyone will see this posts on
+                                        the frontend. <br>
+                                        <strong>Private</strong>: If you select this, only you will see this posts on
+                                        the frontend. <br>
+                                        <strong>Draft</strong>: If you select this, no one on the frontend will see this
+                                        posts.And it will be saved in your posts list draft. <br></li>
+                                </ul>
+                            </li>
+                            <li><strong>posts Type</strong>: You can update your posts Type from here.</li>
+                            <li><strong>Tag</strong>: You can select update your posts Tag from here. <br>
+                                <strong>add new tag</strong>: create an posts by Add New tag click this button.
+                            </li>
+                            <li><strong>Thumbnail</strong>: You can upload posts photos from here. </li>
+                            <li>
+                                <strong>Update</strong>: After all the input fields update click the
+                                <span style="font-weight: 900;">Update</span> button to update your posts.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- posts delete -->
+                    <article id="postDelete">
+                        <h1 class="font-weight-bold">How to Delete posts</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Posts</span> Tab</li>
+                            <li>Find page delete icon Click <span style="font-weight: 900;">delete</span> buttion of the
+                                posts that you want to delete</li>
+                        </ul>
+                        <div class="">
+                            <h4>Video</h4>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Title section add-->
+                    <article id="sectionTitlesAdd" class="mt-5">
+                        <h1 class="font-weight-bold">Section Titles Add</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 700;">General </span> and click <span
+                                    style="font-weight: 700;">Titles</span> section</li>
+                            <li>You will see a list of section titles of your website pages.</li>
+
+                            <li>You can add Title, Bactitle, Subsubtitle by Click <span
+                                    style="font-weight: 700;">Create</span> Button
+                            </li>
+                            <li>
+                                <strong>Publish </strong>: Now you can add section title by clicking the
+                                <span style="font-weight: 700;">Create</span> button.
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Title section edit-->
+                    <article id="sectionTitles" class="mt-5">
+                        <h1 class="font-weight-bold">Section Titles Edit</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 700;">General </span> and click <span
+                                    style="font-weight: 700;">Titles</span> section</li>
+                            <li>You will see a list of section titles of your website pages.</li>
+
+                            <li>You can edit Title, Bactitle, Subsubtitle by Click <span
+                                    style="font-weight: 700;">edit</span> Button <br> and <strong>Don't edit
+                                    Key</strong>
+                            </li>
+                            <li>
+                                <strong>Publish </strong>: Now you can update section title by clicking the
+                                <span style="font-weight: 700;">Update</span> button.
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Breadcrumbs add-->
+                    <article id="breadcrumbs" class="mt-5">
+                        <h1 class="font-weight-bold">How to add breadcrumb</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 700;">General </span> and click <span
+                                    style="font-weight: 700;">Breadcrumbs</span> section</li>
+                            <li>You will see a list of page Breadcrumbs of your website pages.</li>
+
+                            <li>You can add Title, Subsubtitle by Click <span style="font-weight: 700;">edit</span>
+                                Button <br> and <strong>Don't edit Key</strong> </li>
+                            <li>
+                                <strong>Publish </strong>: Now you can update section title by clicking the
+                                <span style="font-weight: 700;">Update</span> button.
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+                    <!-- Breadcrumbs edit-->
+                    <article id="breadcrumbsEdit" class="mt-5">
+                        <h1 class="font-weight-bold">How to edit breadcrumbs</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 700;">General </span> and click <span
+                                    style="font-weight: 700;">Breadcrumbs</span> section</li>
+                            <li>You will see a list of page Breadcrumbs of your website pages.</li>
+
+                            <li>You can edit Title, Subsubtitle by Click <span style="font-weight: 700;">edit</span>
+                                Button <br> and <strong>Don't edit Key</strong> </li>
+                            <li>
+                                <strong>Publish </strong>: Now you can update section title by clicking the
+                                <span style="font-weight: 700;">Update</span> button.
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Categories add-->
+                    <article id="category" class="mt-5">
+                        <h1 class="font-weight-bold">Categories create and update</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 700;">General </span> and click <span
+                                    style="font-weight: 700;">Categories</span> section</li>
+                            <li>You will see a list of Categories.</li>
+
+                            <li>Find Category Add New button Click <span style="font-weight: 700;">Add New</span> Button
+                            </li>
+
+                            <li>You’ll see a new create Category field where you should put the Name to add new
+                                category.</li>
+
+                            <li>
+                                <strong>Create</strong>: After filling all the input fields click the <span
+                                    style="font-weight: 700;">Create</span> button to create your new category.
+                            </li>
+
+                            <li>For edit existing category find category edit icon Click <span
+                                    style="font-weight: 700;">edit</span> Button
+                            </li>
+
+                            <li>
+                                <strong>Publish </strong>: Now you can update category by clicking the <span
+                                    style="font-weight: 700;">Update</span> button.
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Tags -->
+                    <article id="tags" class="mt-5">
+                        <h1 class="font-weight-bold">Tags add and update</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 700;">General </span> and click <span
+                                    style="font-weight: 700;">Tags</span> text</li>
+                            <li>You will see a list of Tags.</li>
+
+                            <li>Find Tag Add New button Click <span style="font-weight: 700;">Add New</span> Button
+                            </li>
+
+                            <li>You’ll see a new create Tag field where you should put the Name to add new tag.</li>
+
+                            <li>
+                                <strong>Create</strong>: After filling name input fields click the <span
+                                    style="font-weight: 700;">Create</span> button to create your new Tag.
+                            </li>
+
+                            <li>For edit existing Tag find Tag edit icon Click <span
+                                    style="font-weight: 700;">edit</span> Button
+                            </li>
+
+                            <li>
+                                <strong>Publish </strong>: Now you can update Tag by clicking the <span
+                                    style="font-weight: 700;">Update</span> button.
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Map -->
+                    <article id="map" class="mt-5">
+                        <h1 class="font-weight-bold">Map</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 700;">General </span> and click <span
+                                    style="font-weight: 700;">Map</span> text</li>
+                            <li>You will see map section content.</li>
+
+                            <li>For edit map Title, Email, Phone and Address Click <span
+                                    style="font-weight: 700;">edit</span> Button
+                            </li>
+
+                            <li>
+                                <strong>Publish </strong>: Now you can update map Information by clicking the <span
+                                    style="font-weight: 700;">Update</span> button.
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Footer -->
+                    <article id="footer" class="mt-5">
+                        <h1 class="font-weight-bold">Footer</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 700;">General </span> and click <span
+                                    style="font-weight: 700;">Footer</span> text</li>
+
+                            <li>Find page Footer edit icon button Click <span style="font-weight: 700;">edit</span>
+                                Button
+                            </li>
+
+                            <li>You’ll see page Footer field where you should put the Footer Text, Widget 1, Widget 2,
+                                Widget 3, Copyright Text, Created By and Footer Logo, Publish - Update this fields.</li>
+
+                            <li>
+                                <strong>Publish </strong>: Now you can update Footer Information by clicking the <span
+                                    style="font-weight: 700;">Update</span> button.
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Home pege hero section -->
+                    <article id="hero" class="mt-5">
+                        <h1 class="font-weight-bold">How to edit hero section</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">Home Page </span> and click <span
+                                    style="font-weight: 900;">Hero</span> text</li>
+                            <li>Find page a edit icon button Click <span style="font-weight: 900;">edit</span> Button
+                            </li>
+
+                            <li>You’ll see a Hero page field where you should put the Promo Title, Title, Subtitle,
+                                Button One, Button Two, Publish and Background image to Update this fields.</li>
+                            <li>
+                                <strong>Publish </strong>: Now you can update the Hero section by clicking the
+                                <span style="font-weight: 900;">Update</span> button.
+                            </li>
+                            <li><strong>Thumbnail</strong>: You can upload post photos from here. </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+
+                    <!-- Aboute Me edit section -->
+                    <article id="aboutme" class="mt-5">
+                        <h1 class="font-weight-bold">How to edit about me section</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">About Me</span> and click <span
+                                    style="font-weight: 900;">About Me</span> section</li>
+                            <li>Find page a edit icon button Click <span style="font-weight: 900;">edit</span> Button
+                            </li>
+
+                            <li>You’ll see a About Me field where you should put the Youtube Link, Short Description,
+                                description, Publish and thumbnail to edit this fields.</li>
+                            <li>
+                                <strong>Publish Options</strong>: Now you can publish about me by clicking the update
+                                button. You get 3 type publish option. <br>
+                                <ul>
+                                    <li><strong>Publish</strong>: If you select this, everyone will see this about me on
+                                        the frontend. <br>
+                                        <strong>Private</strong>: If you select this, only you will see this posts on
+                                        the frontend. <br>
+                                        <strong>Draft</strong>: If you select this, no one on the frontend will see this
+                                        about me.And it will be saved in your about me list draft. <br></li>
+                                </ul>
+                            </li>
+                            <li><strong>Thumbnail</strong>: You can upload post photos from here. </li>
+                            <li><strong>Update</strong>: You can update . </li>
+                            <strong>Update</strong>: Now you can update about me by clicking the update button.
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Aboute Me edit section -->
+                    <article id="aboutmeView">
+                        <h1 class="font-weight-bold">How to view about me section</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">About Me</span> and click <span
+                                    style="font-weight: 900;">About Me</span> section</li>
+                            <li>Find page a view icon button Click <span style="font-weight: 900;">view</span> Button
+                            </li>
+                            <li>You’ll see this posts view in the new tab.</li>
+                        </ul>
+                        <div class="">
+                            <h4>Video</h4>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+
+                    <!-- Experience Section -->
+                    <article id="experienceAdd" class="mt-5">
+                        <h1 class="font-weight-bold">How to add experience section</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">About Me</span> and click <span
+                                    style="font-weight: 900;">Experience</span> section</li>
+                            <li>Find a page Add New button Click <span style="font-weight: 900;">Add New</span> Button
+                            </li>
+                            <li>You’ll see a new experience section field, where you should put the Title, Short
+                                description, Start Date, End Date, Description and publish to add this fields</li>
+                            <li>
+                                <strong>Description</strong>: Type description in content input field.
+                                <ul>
+                                    <li>
+                                        <strong>link-input</strong>: You can type link url, text, title of your link.
+                                        And can also choose, should this link open in this tab or in a new tab? <br>
+                                        <strong>Image-icon</strong>: You can add img in content by click link <span
+                                            style="font-weight: 900;">img icon</span> content top bar. <br>
+                                        <strong>Image-input</strong>: You can type img source (from another website),
+                                        alternative description (if img is not found this text will show), image height
+                                        and width, title of your link. And can also choose, to show or hide the photo
+                                        caption? <br>
+                                        <strong>Image-input by upload</strong>: You can upload img from image module
+                                        "Upload" tab.<br>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Publish Options</strong>: Now you can publish the experience by clicking the
+                                create
+                                button.You get 3 type publish option. <br>
+                                <ul>
+                                    <li><strong>Publish</strong>: If you select this, everyone will see this experience
+                                        on
+                                        the frontend. <br>
+                                        <strong>Private</strong>: If you select this, only you will see this experience
+                                        on
+                                        the frontend. <br>
+                                        <strong>Draft</strong>: If you select this, no one on the frontend will see this
+                                        experience.And it will be saved in your experience list draft. <br></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Create</strong>: After filling all the input fields click the
+                                <span style="font-weight: 900;">Create</span> button to create your experience.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Experience edit Section -->
+                    <article id="experienceEdit" class="mt-5">
+                        <h1 class="font-weight-bold">How to update experience section</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">About Me</span> and click <span
+                                    style="font-weight: 900;">Experience</span> section</li>
+                            <li>Find a page edit icon button Click <span style="font-weight: 900;">edit</span> Button
+                            </li>
+                            <li>You’ll see a experience section field update, where you should put the Title, Short
+                                description, Start Date, End Date, Description and publish to update this fields</li>
+                            <li>
+                                <strong>Description</strong>: Type description in content input field.
+                                <ul>
+                                    <li>
+                                        <strong>link-input</strong>: You can type link url, text, title of your link.
+                                        And can also choose, should this link open in this tab or in a new tab? <br>
+                                        <strong>Image-icon</strong>: You can add img in content by click link <span
+                                            style="font-weight: 900;">img icon</span> content top bar. <br>
+                                        <strong>Image-input</strong>: You can type img source (from another website),
+                                        alternative description (if img is not found this text will show), image height
+                                        and width, title of your link. And can also choose, to show or hide the photo
+                                        caption? <br>
+                                        <strong>Image-input by upload</strong>: You can upload img from image module
+                                        "Upload" tab.<br>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Publish Options</strong>: Now you can publish the experience by clicking the
+                                update
+                                button. You get 3 type publish option. <br>
+                                <ul>
+                                    <li><strong>Publish</strong>: If you select this, everyone will see this experience
+                                        on
+                                        the frontend. <br>
+                                        <strong>Private</strong>: If you select this, only you will see this experience
+                                        on
+                                        the frontend. <br>
+                                        <strong>Draft</strong>: If you select this, no one on the frontend will see this
+                                        experience.And it will be saved in your experience list draft. <br></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Update</strong>: After change all the input fields click the
+                                <span style="font-weight: 900;">Update</span> button to update your experience.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Experience Delete Section-->
+                    <article id="experienceDelete">
+                        <h1 class="font-weight-bold">How to Delete experience</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-size: 20px; font-weight: 900;">About Me</span> and click <span
+                                    style="font-weight: 900;">Experience</span> section</li>
+                            <li>Find page delete icon Click <span style="font-weight: 900;">delete</span> buttion of the
+                                posts that you want to delete</li>
+                        </ul>
+                        <div class="">
+                            <h4>Video</h4>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <!-- Call To Action -->
+                    <article id="calltoactionEdit" class="mt-5">
+                        <h1 class="font-weight-bold">How to edit Call To Action</h1>
+                        <ul>
+                            <li>Go To <a href="https://jp.pixcafe.xyz/login"
+                                    style="text-decoration: underline; ">Dashboard</a></li>
+                            <li>Click <span style="font-weight: 900;">About Me</span> and click <span
+                                    style="font-weight: 900;">Call To Action</span> section</li>
+                            <li>Find a page edit icon button Click <span style="font-weight: 900;">edit</span> Button
+                            </li>
+                            <li>You’ll see a Call To Action section field, where you should put the Title, Button Text,
+                                Resume, Image, Background Image and publish to update this fields</li>
+                            <li>
+                                <strong>Title</strong>: Type your title in input field.
+                            </li>
+                            <li>
+                                <strong>Button Text</strong>: Type your button text in input field.
+                            </li>
+                            <li>
+                                <strong>Title</strong>: Type your title in input field.
+                            </li>
+                            <li>
+                                <strong>Resume</strong>: Type your Resume in input field.
+                            </li>
+                            <li>
+                                <strong>Image</strong>: you can upload image here.
+                            </li>
+                            <li>
+                                <strong>Background</strong>: you can upload background image here.
+                            </li>
+
+                            <li>
+                                <strong>Update</strong>: After change all the input fields click the
+                                <span style="font-weight: 900;">Update</span> button to update your call to action.
+                            </li>
+                            <li>Watch the video to understand well.</li>
+                        </ul>
+
+                        <div class="">
+                            <h5>video</h5>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/BrOyhO7N9Hw"
+                                title="INVO - PART#1 - INTRODUCTION | বাংলা লারাভেল প্রোজেক্ট | পিক্সক্যাফে নেটওয়ার্ক"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- /.main-content -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row gap-y align-items-center">
+                <div class="col-md-9">
+                    <div class="nav justify-content-center justify-content-md-start">
+                        <a class="nav-link" target="_blank" href="https://jp.pixcafe.xyz/">Home</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center text-md-right">
+                    <a href="http://thetheme.io">© TheThemeio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /.footer -->
+
+    <!-- Bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script>
+        $('#sidebar').stickySidebar({
+
+            // default selectors
+            headerSelector: 'header',
+            navSelector: 'nav',
+            contentSelector: '#content',
+            footerSelector: 'footer',
+
+            // defines top margin from sidebar to navigation element
+            sidebarTopMargin: 20,
+
+            // defines a distance from footer
+            footerThreshold: 40
+
+        });
+    </script>
+
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
